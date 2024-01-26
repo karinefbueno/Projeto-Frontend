@@ -1,6 +1,6 @@
 import { useState } from "react";
 import context from "./CardContext";
-import { TypeInfoData } from "../../../type";
+import { TypeInfoData } from "../type";
 
 type ProviderProps = {
   children: React.ReactNode,

@@ -1,0 +1,54 @@
+.header_container {
+    display: flex;
+    background-color: rgba(14, 14, 14, 0.85);
+    justify-content: space-between;
+    z-index: 0;
+    height: 211px;
+    width: 100vw;
+}
+
+.title {
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    width: 80%;  
+}
+
+.logo_trybe {
+    width: 256px;
+    height: 211px;
+}
+
+.title h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+
+}
+
+@media ( max-width : 900px ) {
+    .header_container {
+    height: 100px;
+    width: auto;
+}
+
+.title h1 {
+    font-size: 30px;
+}
+
+.logo_trybe {
+    width: 100%;
+    height: 116px;
+    margin-left: 20px;
+    margin-top: -4px;
+    top:0;
+}
+
+
+}
+
+@media ( min-width : 501px ) {
+
+
+}
